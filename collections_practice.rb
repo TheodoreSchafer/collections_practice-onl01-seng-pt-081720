@@ -38,8 +38,8 @@ end
 
 def sum_array(array)
   sum = 0
-  array.each do |num|
-    sum+=num
+  array.each do |numbers|
+    sum+=numbers
   end
   return sum
 end
